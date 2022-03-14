@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1,h2,h3,h4,h5,h6,p{font-family: 'Montserrat', sans-serif;}
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+header#header {
+    width: 100%;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+   
+}
+
+.topbarwrapper {
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.logo {
+    width: 550px;
+    float: left;
+}
+
+.logo img {width: 220px;}
+
+.topbarmenu {
+    width: 550px;
+    float: left;
+}
+
+.topbarmenu ul {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.topbarmenu ul li {
+    display: inline-block;
+    margin-right: 15px;
+    float: right;
+    position: relative;
+}
+
+.topbarmenu ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: .5s;
+    color: #555;
+}
+
+.topbarmenu ul li:after {
+    content: "";
+    width: 0;
+    border-bottom: 2px solid #fb5200;
+    position: absolute;
+    height: 3px;
+    bottom: -5px;
+    left: 0px;
+    transition: .5s;
+}
+
+.topbarmenu ul li:hover:after{
+    width:100%;
+}
+
+.topbarmenu ul li a:hover{
+    color:aqua;
+}
+
+#goalsway{
+    background-image: linear-gradient(rgba(0,0,0,-0.25),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100%;
+}
+
+.golsdec {
+    width: 526px;
+    color: white;
+    padding-top: 170px;
+}
+
+.golsdec h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+h2 {}
+
+.golsdec p {
+    font-size: 16px;
+    color: #bfbbbb;
+    font-family: serif;
+    padding: 40px 0px;
+}
+
+.goalbtn{
+    padding-bottom:200px
+}
+
+button:first-child {
+    width: 150px;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    color: #333;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .3s;
+
+}
+
+button:first-child:hover{
+    background: #10537a;
+    color:white
+}
+
+button:last-child{
+    width: 150px;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(110, 222, 226);
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .3s;
+    transition: .3s;
+
+}
+
+button:last-child:hover{
+    background:rgb(28, 119, 122); ;
+}
+
+
+section#\ logofeature {
+    background: #f7f7f6;
+}
+
+.logotitle {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logotitle h5 {
+    font-size: 20px;
+    font-family: monospace;
+    color: #444;
+    font-weight: 100;
+}
+
+.logowrapper {
+    overflow: hidden;
+    margin-top: 30px;
+    padding-bottom: 35px;
+}
+
+.singlelogo {
+    width: 140px;
+    float: left;
+    margin-right: 100px;
+}
+
+.singlelogo:last-child {
+    margin-right: 0px;
+}
+
+.singlelogo img {
+    width: 100%;
+}
+
+.sectiontitle {
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.sectiontitle h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+}
+
+.sectiontitle p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.singlepractics {
+    width: 305px;
+    background: #0f4cbdf0;
+    color: white;
+    padding: 40px;
+    padding-right: 0px;
+    float: left;
+    margin-right: 30px;
+}
+
+.singlepractics h3 {
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    margin-top: 35px;
+}
+
+.singlepractics p {
+    width: 300px;
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 40px;
+}
+
+button#readmorebtn {
+    background: transparent;
+    border: 1px dashed #b9b3b3;
+    transition: .5s;
+    overflow: hidden;
+}
+
+button#readmorebtn:hover{
+    background: #1181c1;
+    border:none;
+}
+
+.singlepractics:last-child {
+    margin-right: 0px;
+}
+
+section#practics {padding-bottom: 30px;}
+
+.practicswrapper {
+    overflow: hidden;
+}
+
+span{
+    position: relative;
+}
+span:after{
+    content: "";
+    width: 50px;
+    border-bottom: 1px solid #d6d1ce;
+    position: absolute;
+    height: 0;
+    bottom: 0px;
+    left: 0px;
+}
+
+.advicewrapper {
+    overflow: hidden;
+}
+
+.needadvice {
+    width: 290px;
+    float: left;
+    margin-right: 30px;
+    background: aliceblue;
+    padding: 55px 30px;
+}
+
+.needadvice h2 {
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.needadvice p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+
+.needadvice a {
+    text-decoration: none;
+    color: #dad9d9;
+    padding: 15px 30px;
+    background: #4444e4;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    transition: .3s;
+}
+.needadvice a:hover{
+    background-color: #1181c1;
+}
+
+
+.courses {
+    overflow: hidden;
+    background: aliceblue;
+}
+
+.coursesicon {
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+}
+
+.coursesicon i {
+    font-size: 130px;
+    float: left;
+    margin: 200px 30px;
+    margin-bottom: 25px;
+    color: #fb5200;
+}
+
+.coursesdec a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 15px 30px;
+    background: #4444e4;
+    transition: .5s;
+}
+
+.coursesdec a:hover{
+    background:#1181c1
+}
+.coursesdec h4 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+
+.coursesdec p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+section#advice {
+    margin-bottom: 80px;
+}
+
+.testimonialwrapper{
+    background-image: linear-gradient(rgba(7,258,327,0.4),rgba(7,76,174,1)),url(background-free-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.testimonialdec {
+    width: 700px;
+    margin: auto;
+    margin-left: 600px;
+    padding: 120px 0px;
+}
+
+.testimonialdec h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+.testimonialdec p {
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    width: 550px;
+    padding-bottom: 30px;
+}
+
+p.personname {
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+section#story {
+    background: #eaeaea;
+}
+
+.storywrapper {
+    overflow: hidden;
+}
+
+.storydec {
+    width: 600px;
+    background: white;
+    padding: 50px;
+    padding-right: 0px;
+    padding-bottom: 55px;
+    margin: 135px 0px;
+}
+
+.storydec h1 {
+    font-size: 35px;
+    font-weight: 500;
+    padding: 25px 0px;
+    font-family: monospace;
+}
+
+.storydec p {
+    font-size: 15px;
+    width: 550px;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    margin-bottom: 60px;
+}
+
+.storydec p:last-child {
+    padding-top: 30px;
+}
+
+
+.storydec a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #4d1bc7;
+    margin: 20px 0px;
+    transition: .3s;
+    border-radius: 2px;
+    font-family: cursive;
+}
+
+.storydec a:hover{
+    background: #1181c1;
+    cursor: pointer;
+}
+
+.storyimg {
+    width: 450px;
+    float: right;
+    margin-top: -740px;
+}
+
+.storyimg img {
+    width: 100%;
+}
+
+section#yourgoals {
+    background: #0274BE;
+}
+
+.goalsway {
+    width: 700px;
+    margin: auto;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.goalsway h2 {
+    color: white;
+    line-height: 60px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.copyrightcontent {justify-content: space-between;display: flex;margin: 30px 0px;}
+
+.copyrightcontent p {
+    font-size: 15px;
+    color: #555;
+}

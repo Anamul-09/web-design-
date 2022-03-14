@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1,h2,h3,h4,h5,h6{font-family: 'Playfair Display', serif;}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+.topbarwrapper {
+    overflow: hidden;
+}
+
+.topbarcontent {
+    width: 964px;
+    float: left;
+    margin: 20px 0px;
+    margin-left: 50px;
+}
+
+.topbarmenu {
+    width: 285px;
+    float: left;
+    margin: 20px 0px;
+    margin-right: 50px;
+}
+
+.topbarcontent a {
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding:7px 10px;
+    letter-spacing: 1.1px;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.topbarcontent a:hover{
+    
+    background: #ddd;
+}
+
+.topbarmenu ul {
+    list-style: none;
+}
+
+.topbarmenu ul li a {
+    text-decoration: none;
+    color: #555;
+    transition: .3s;
+    padding:7px 10px;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    border-radius: 2px;
+}
+
+.topbarmenu ul li a:hover{
+    border:1px dashed #00c9fb;
+    background: #ddd;
+}
+
+.topbarmenu ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+
+.topbarmenu ul li:last-child {
+    margin-right: 0px;
+}
+
+header#topbar {
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 0px 12px -6px;
+}
+
+.displayimg {overflow: hidden;}
+
+.displayimg img {
+    width: 100%;
+}
+
+.displayimg h1 {
+    position: absolute;
+    margin-top: -75px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: emoji;
+    color: #777;
+    padding-left: 50px;
+}
+
+.cateringwrapper {
+    overflow: hidden;
+    padding: 80px 0px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.cateringimg {
+    width: 528px;
+    float: left;
+    margin-right: 50px;
+}
+
+.cateringimg img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+
+.cateringcontent h1 {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px 0px;
+    color: #555;
+}
+
+.cateringcontent p {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 30px;
+    font-family: auto;
+}
+
+.cateringcontent span {
+    font-variant: small-caps;
+    color: #333;
+    font-size: 20px;
+    margin-left: 15%;
+    display: inline-block;
+    padding: 20px 0px;
+    letter-spacing: 1.1px;
+}
+
+.cateringcontent a{
+    transition: .3s;
+}
+
+.cateringcontent a:hover {
+    padding: 0px 4px;
+    background: #b17a5f;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.menuwrapper {
+    overflow: hidden;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #e6e5e5;
+}
+
+.menuitem {
+    width: 550px;
+    float: left;
+    margin-right: 50px;
+}
+
+.menuitem h1 {
+    padding-top: 120px;
+    font-size: 38px;
+    font-weight: 500;
+    padding-bottom: 35px;
+    text-align: center;
+    letter-spacing: 7.1px;
+}
+
+.menuitem1 {
+    padding-bottom: 50px;
+}
+
+.menuitem1 h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    letter-spacing: 3.1px;
+    padding-bottom: 25px;
+}
+
+.menuitem1 p {
+    font-size: 13px;
+    word-spacing: 2px;
+    color: #666;
+}
+
+.menuitem2 {
+    padding-bottom: 50px;
+}
+
+.menuitem2 h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    letter-spacing: 3.1px;
+    padding-bottom: 25px;
+}
+
+.menuitem2 p {
+    font-size: 13px;
+    word-spacing: 2px;
+    color: #666;
+}
+
+.menuitem3{
+    padding-bottom: 50px;
+}
+
+.menuitem3 h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    letter-spacing: 3.1px;
+    padding-bottom: 25px;
+}
+
+.menuitem3 p {
+    font-size: 13px;
+    word-spacing: 2px;
+    color: #666;
+}
+
+.menuitem4 {
+    padding-bottom: 50px;
+}
+
+.menuitem4 h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    letter-spacing: 3.1px;
+    padding-bottom: 25px;
+}
+
+.menuitem4 p {
+    font-size: 13px;
+    word-spacing: 2px;
+    color: #666;
+}
+
+.menuitem5 {
+    padding-bottom: 50px;
+}
+
+.menuitem5 h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    letter-spacing: 3.1px;
+    padding-bottom: 25px;
+}
+
+.menuitem5 p {
+    font-size: 13px;
+    word-spacing: 2px;
+    color: #666;
+}
+
+.menuimg {
+    width: 500px;
+    padding-top: 100px;
+    float: left;
+}
+
+.menuimg img {border-radius: 3px;}
+
+.contactdecs {
+    margin-top: 90px;
+}
+
+.container h1 {
+    padding-bottom: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: auto;
+    color: #444;
+    letter-spacing: 2.1px;
+}
+
+.contactdecs p {
+    font-size: 16px;
+    padding: 20px 0px;
+    font-weight: 500;
+    font-family: math;
+    line-height: 25px;
+}
+
+span {
+    font-weight: 600;
+    font-family: math;
+    font-size: 19px;
+    color: #125f67;
+}
+
+.contactbox {display: grid;margin-bottom: 50px;}
+
+.contactbox input {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 25px 0px;
+    text-transform: capitalize;
+    font-family: auto;
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.contactbox a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: emoji;
+    color: #444;
+    padding: 10px 20px;
+    background: #f3f3f3;
+    width: 113px;
+    margin: 30px 0px;
+    transition: .3s;
+}
+
+.contactbox a:hover{
+    background: rgb(189, 189, 189);
+    color:#222;
+}
+
+footer#footersection {
+    background: #eaeaea;
+}
+
+.fcontent {
+    width: 100%;
+}
+
+.fcontent p {
+    text-align: center;
+    font-size: 14px;
+    font-family: auto;
+    padding: 50px 0px;
+}
+
+.fcontent p a {
+    color: #37383a;
+    transition: .3s;
+}
+
+.fcontent p a:hover{
+    color: #15a390;
+}
