@@ -1,0 +1,13 @@
+
+
+.nav-link-style{
+    transition: .5s;
+}
+.nav-link-style:hover{
+    text-decoration: underline;
+}
+
+.pic img{
+    width: 80px;
+    height: 100%;
+}

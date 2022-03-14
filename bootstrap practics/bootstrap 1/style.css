@@ -1,0 +1,41 @@
+#img{
+    width:200px;
+    height:200px;
+}
+
+.menu{
+	float:right;
+}
+
+.alert{
+    background-color: red;
+    color: white;
+}
+
+.alert p{
+    font-size: 20px;
+}
+
+.alert p a{
+    color: white;
+    margin:50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+}
+
+.my-link:hover{
+    text-decoration: underline;
+}
+
+
+#feedback{
+    background-color: #0d0d0d;
+    padding:7% 20%;
+    color:white;
+    margin-bottom:15px
+
+}
+
+    
+    
